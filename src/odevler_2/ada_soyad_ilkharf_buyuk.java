@@ -22,7 +22,6 @@ public class ada_soyad_ilkharf_buyuk {
                 System.out.print(c1);
             } else {
                 char c = trim_adi.charAt(i);
-
                 System.out.print(c);
             }
         }
