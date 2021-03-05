@@ -7,7 +7,8 @@ public class dizi_eleman_ekleme {
         for (int i = 0; i < int_array.length; i++) {
             int_array_yeni[i] = int_array[i];
         }
-        int_array_yeni[4] = 10;
+        int_array_yeni[4] = 10;//Ikinci array in 5 elemanina deger atama yapiliyor.
+        //Ikinici array elemanlarini yazdirmak.
         for (int i = 0; i < int_array_yeni.length; i++) {
             System.out.println("ikinci Dizinin " + (i + 1) + " inci elemani  " + int_array_yeni[i]);
         }
