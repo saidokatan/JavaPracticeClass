@@ -1,4 +1,4 @@
-package swch;
+package swch_case;
 
 import java.util.Scanner;
 

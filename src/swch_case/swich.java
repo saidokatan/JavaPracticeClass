@@ -1,4 +1,4 @@
-package swch;
+package swch_case;
 
 public class swich {
     public static void main(String[] args) {

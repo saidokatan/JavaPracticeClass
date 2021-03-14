@@ -11,7 +11,7 @@ public class rrr {
         numbers.add(40);
 // Retrieving
         System.out.println(numbers.get(0));
-        System.out.println("\nIteration #1: ");
+        System.out.println("");
 // Indexed for loop iteration
         for (int i = 0; i < numbers.size(); i++){
             System.out.println(numbers.get(i));
