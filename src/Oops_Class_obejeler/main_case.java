@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class main_case {
     public static void main(String[] args) {
-        dort_islem islem = new dort_islem();
+       // dort_islem islem = new dort_islem();
         int birinci_sayi = 0;
         int ikinci_sayi = 0;
         String isaret;
@@ -31,7 +31,7 @@ public class main_case {
                 birinci_sayi = sayi.nextInt();
                 System.out.print("Ikinci Sayisi Giriniz...>  ");
                 ikinci_sayi = sayi.nextInt();
-                int cikarma = islem.cikarma(birinci_sayi, ikinci_sayi);
+                int cikarma = dort_islem.cikarma(birinci_sayi, ikinci_sayi);
                 System.out.println("Iki Sayinin Farki ..> " + cikarma);
                 break;
             }
@@ -41,7 +41,7 @@ public class main_case {
                 birinci_sayi = sayi.nextInt();
                 System.out.print("Ikinci Sayisi Giriniz...>  ");
                 ikinci_sayi = sayi.nextInt();
-                int carpma = islem.carpma(birinci_sayi, ikinci_sayi);
+                int carpma = dort_islem.carpma(birinci_sayi, ikinci_sayi);
                 System.out.println("Iki Sayinin Farki ..> " + carpma);
                 break;
             }
@@ -51,8 +51,8 @@ public class main_case {
                 birinci_sayi = sayi.nextInt();
                 System.out.print("Ikinci Sayisi Giriniz...>  ");
                 ikinci_sayi = sayi.nextInt();
-                float bolme = islem.bolme(birinci_sayi, ikinci_sayi);
-                System.out.println("Iki Sayinin Farki ..> " + bolme);
+                float bolme = dort_islem.bolme(birinci_sayi, ikinci_sayi);
+                System.out.println("Iki Sayinin Bolumu ..> " + bolme);
                 break;
             }
             default:{

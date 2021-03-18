@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class main_if_else {
     public static void main(String[] args) {
-        dort_islem islem = new dort_islem();
+        //dort_islem islem = new dort_islem();
         int birinci_sayi = 0;
         int ikinci_sayi = 0;
         String isaret;
@@ -22,15 +22,15 @@ public class main_if_else {
             System.out.println("Iki Sayinin Toplami..> " + toplam);
         } else if (isaret.equals("-")) {
             System.out.println("Cikarma Islemi Yapiyorsunuz");
-            int cikarma = islem.cikarma(birinci_sayi, ikinci_sayi);
+            int cikarma = dort_islem.cikarma(birinci_sayi, ikinci_sayi);
             System.out.println("Iki Sayinin Farki ..> " + cikarma);
         } else if (isaret.equals("*")) {
             System.out.println("Carpma Islemi Yapiyorsunuz");
-            int carpma = islem.carpma(birinci_sayi, ikinci_sayi);
+            int carpma = dort_islem.carpma(birinci_sayi, ikinci_sayi);
             System.out.println("Iki Sayinin Farki ..> " + carpma);
         } else if (isaret.equals("/")) {
             System.out.println("Bolme Islemi Yapiyorsunuz");
-            float bolme = islem.bolme(birinci_sayi, ikinci_sayi);
+            float bolme = dort_islem.bolme(birinci_sayi, ikinci_sayi);
             System.out.println("Iki Sayinin Farki ..> " + bolme);
         } else {
             System.out.println("Yanlis Deger Girdiniz..");
