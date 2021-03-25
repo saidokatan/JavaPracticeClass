@@ -1,7 +1,5 @@
 package kendi_calsimalarim;
-
 import java.util.Scanner;
-
 public class atmIslemleri {
     public static void main(String[] args) {
         int islem;
@@ -11,7 +9,6 @@ public class atmIslemleri {
         System.out.println("**** Yatir Banka Hosgeldiniz ****  ");
         System.out.println("********* Yatir Kazan ***********  ");
         System.out.println("Guncel Bakiyeniz...> " + bakiye + " TL dir");
-
         while (bakiye > 0) {
             System.out.println();
             System.out.println("Para Cekmek Icin ................ > 1 ");
@@ -40,15 +37,12 @@ public class atmIslemleri {
                 System.out.println("Toplam Bakineyinz......> " + bakiye);
             } else if (islem == 3) {
                 System.out.println("Toplam Bakiyeniz........> " + bakiye);
-
             } else if (islem == 4) {
                 break;
             }
             System.out.println();
         }
         System.out.println("** Yine Bekleriz Para Yatir Daha Fazla Kazan ** ");
-
     }
-
 }
 
